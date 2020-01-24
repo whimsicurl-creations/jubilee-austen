@@ -9,6 +9,11 @@ body {
 #about, #work, #contact {
     height: 600px;
 }
+.content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
 /***** GRID *****/
 .full-width {
