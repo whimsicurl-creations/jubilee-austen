@@ -9,15 +9,19 @@ body {
 
 /***** GRID *****/
 .full-width {
-    width: 1200px;
+    /* width: 1200px; */
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .half-width {
-    width: 600px;
+    /* width: 600px; */
+    width: 50%;
     float: left;
 }
 .third-width {
-    width: 400px;
+    /* width: 400px; */
+    width: 33%;
     float: left;
 }
 
@@ -26,6 +30,7 @@ header {
     height: 800px;
     background: url('../img/hero.png');
     background-size: cover;
+    background-position: bottom right;
 }
 header h1 {
     font-family: 'Lora', serif;
@@ -34,7 +39,7 @@ header h1 {
     padding: 65px 0 65px 25px;
 }
 header h2 {
-    width: 1000px;
+    width: 80%;
     clear: left;
     font-family: 'Lora', serif;
     font-size: 72px;
